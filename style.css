@@ -1,0 +1,250 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background: white;
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li{
+    float: left;
+
+}
+nav a{
+    width: 100px;
+    padding: 25px;
+    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+    
+    
+}
+nav a:hover{
+    background: rgba(250, 0, 0, 0.719);
+    border-radius: 35px;
+    
+}
+.heading{
+    color: white;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+    text-shadow: 2px 2px 4px red;
+    
+}
+.sub-heading{
+    color:white;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 47.6px;
+    font-family:serif;
+    text-shadow: 2px 2px 4px red;
+}
+
+
+.button{
+  position: absolute;
+ bottom: 30%;
+  left: 43%;
+}
+
+.heading1{
+    color: #333333;
+    font-size: 42px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+h3{
+    color: #333333;
+    font-size: 30px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+.container1{
+    padding-top: 50px;
+    background-color: #E2E2E2;
+    color: #8A8A8A;
+    padding-bottom: 100px;
+}
+.mini-container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 600px;
+    grid-auto-rows: 560px;
+    padding-top: 20px;
+    
+}
+.box1{
+    
+    background-color: #ffffff;
+    border: 3px black;
+    box-shadow: #000000;
+    border-radius: 5px;
+    width: 450px;
+    margin-left: 200px;
+    overflow: hidden;
+}
+.heading2,.heading4{
+    text-align: center;
+    color: #333333;
+    font-family: serif;
+    font-size: 35px;
+}
+.heading5{
+    text-align: center;
+    color: #333333;
+    font-family: serif;
+    font-size: 20px;
+}
+.heading3{
+    text-align: center;
+    color: #333333;
+    font-family: serif;
+    font-size: 28px;
+}
+.box2{
+    background-color:#ffffff ;
+    border: 3px black;
+    border-radius: 5px;
+    width: 450px;
+    box-shadow: #000000;
+}
+.button1{
+    background-color: #2765DB;
+    padding: 15px 45px;
+    font-size: 15px;
+    font-family: serif;
+    color: #ffffff;
+    border: none;
+ cursor: pointer;
+ border-radius: 30px 30px 30px 30px;
+ margin-left: 120px;
+}
+.button1:hover{
+    background-color: #539bde;
+}
+.head{
+    color: #333333;
+    font-size: 42px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+ .dabba1{ padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #E2E2E2;
+ }
+ .chotadabba1{ display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-auto-rows: 540px;
+    padding-top: 50px;
+ }
+.box69{ 
+    border: 3px black;
+    border-radius: 5px;
+    width: 800px;
+    box-shadow: #000000;
+
+}
+.box96{  
+    border: 3px black;
+    border-radius: 5px;
+    width: 715px;
+    box-shadow: #000000;
+    margin-left: 700px;
+}
+.h22{
+    text-align: center;
+    color: #333333;
+    font-family: serif;
+    font-size: 40px;
+    padding-top: 100px;
+}
+.h211{text-align: center;
+    color: #333333;
+    font-family: serif;
+    font-size: 20px;
+
+}
+.box966{
+    border: 3px black;
+    border-radius: 5px;
+    width: 800px;
+    box-shadow: #000000;
+}
+.box669{
+    border: 3px black;
+    border-radius: 5px;
+    width: 800px;
+    box-shadow: #000000;
+    margin-left: 700px;
+}
+
+.get{
+    display: grid;
+    grid-template-columns: 100px 100px ;
+    grid-gap: 750px;
+    grid-auto-rows: 160px;
+    /*padding-bottom: 150px;*/
+}
+.contact-custom{
+    color:white;
+    background-color: #7A7A7A; 
+    padding:0.5rem; 
+    margin-right:6%;
+    width:40%; 
+    position:absolute; 
+    left:53%; 
+    display:inline-block;
+    border-radius:0.6rem;
+}
+.address{
+    color:white;
+    background-color: #7A7A7A;  
+    padding:0.5rem; 
+    margin-left:6%; 
+    width:40%; 
+    display:inline-block;
+    border-radius:0.6rem;
+
+}
+.mt{
+    margin-top:2.5rem;
+}
+.touch{
+    margin-top:1rem;
+    margin-bottom:1.5rem;
+}
+
+.footer{
+    background-color: #333;
+    overflow: hidden;
+    width:100%;
+    height: 6%;
+}
+.footera{
+    text-align: center;
+    color: rgb(163, 163, 163);
+    font-size: 0.8rem;
+}

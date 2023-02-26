@@ -1,0 +1,38 @@
+#home-section{
+    background-color:#0E0240;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:#FFFFFF;
+}
+
+#latest-section{
+    background-color: #0E0240;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #FF3366;
+}
+
+#blog-section{
+    background-color: #0E0240;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color:#9012FD;
+}
+.lastest-heading, .home-heading{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+}
+.card-title, .card-text{
+    color: black;
+    font-family: Poppins, sans-serif;
+}
+.lastest-subh{
+    margin-top: -2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 3rem;
+}
